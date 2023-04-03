@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background: #343434 !important;
+    color: rgb(255, 255, 255);
+    font-family: Futura, sans-serif;
+  }
+
+.card-text {
+    margin: 10px 10px 10px 10px;
+}
+
+.card {
+    border-radius: 51px 51px 51px 51px;
+    box-shadow: 21px -13px 33px -5px rgba(232,232,232,0.67);
+    filter: grayscale(75%);
+}
+
+a:link, a:visited {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 16px;
+    opacity: 0.9;
+}
+a:hover, a:active {
+    opacity: 1;
+}
+
+.sago-video {
+    filter: grayscale(99%) sepia(7%) brightness(99%) hue-rotate(20deg) saturate(113%) opacity(79%) contrast(70%);
+}
+
+.min-image {
+    height: 145px;
+    width: 125px;
+    filter: grayscale(99%) sepia(7%) brightness(99%) hue-rotate(20deg) saturate(113%) opacity(79%) contrast(70%);
+
+}
